@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<!--
+Student Name: Rakshya Niraula
+File Name:index.html
+Date: 20th October,2023
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <link rel="stylesheet" href="css/styles.css"> -->
+    <title>Space Heater: Home Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        padding: 0;
+        margin:0;
+    
+    }
+    .container{
+        width:100%;
+        padding-right:15px;
+        padding-left:15px;
+        margin-right:auto;
+        margin-left:auto;
+    }
+    .navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.navbar-expand {
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
+}
+
+.navbar-header {
+    display: flex;
+    align-items: center;
+}
+.navbar-header a {
+    color:#191919;
+    font-size:15px;
+    font-weight:bold;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top:0.3125rem;
+    padding-bottom:0.3125rem;
+    margin-right:1rem;
+    line-height:inherit;
+    white-space:nowrap;
+}
+.main-menu a {
+    color:#191919;
+    text-decoration:none;
+}
+a {
+    background-color:transparent;
+
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row; 
+}
+
+.navbar-nav > li {
+    margin-right: 10px; 
+    list-style: none;
+    white-space: nowrap;
+}
+
+.navbar-nav > li > a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px 15px;
+    border-radius: 4px; 
+}
+
+.navbar-nav > li > a:hover {
+    background-color: #f0f0f0; 
+}
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    background-image: url('images/heater4.jpg');
+}
+.parallax .inner #paragraph1 {
+    font: normal normal normal 15px/1.875em helvetica-w01-light,helvetica-w02-light,sans-serif;
+    color: #fff;
+    text-align: center;
+    text-wrap: none;
+    }
+.parallax .inner #taglink {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    font-family: 'PlayfairDisplay-Regular';
+}
+    .parallax .inner #paragraph {
+    font-size: 72px;
+    color: #fff;
+    text-align: center;
+    font-family: "Oswald-ExtraLight";
+    line-height: 1.25em;
+    font-weight: bolder;
+}
+    /* Styles for a card-like element */
+.card {
+    /* Your card styles */
+    border: 1px solid #ddd; /* Example border style */
+    border-radius: 8px; /* Example border-radius */
+    padding: 15px; /* Example padding */
+}
+
+/* Styles for the card body */
+.card-body {
+    /* Your card-body styles */
+    padding: 10px; /* Example padding */
+}
+
+/* Specific classes */
+.bg-transparent {
+    background-color: transparent; /* Make background transparent */
+}
+
+.border-0 {
+    border: none; /* Remove border */
+}
+.text-center {
+    text-align: center!important;
+}
+.title6 {
+    font: normal normal normal 15px/1.875em helvetica-w01-light,helvetica-w02-light,sans-serif;
+}
+/* Basic styles for the FAQ section */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+}
+
+.faq-content {
+    display: none;
+    padding-left: 20px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]+label {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="checkbox"]:checked~.faq-content {
+    display: block;
+}
+.content {
+  text-align: center; /* If you want to center text horizontally */
+  /* Additional styling for the content */
+}
+@media (min-width: 576px) {
+    .container{
+        max-width: 540px;
+
+    }
+    .flex-sm-nowrap {
+        flex-wrap: nowrap !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .flex-md-row {
+        flex-direction: row !important;
+    }
+}
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1140px;
+    }
+}
+
+</style>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/?Length=4">Teamwork-Hardwork</a>
+            </div>
+            <ul class="nav navbar-nav main-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="specials.html">Specials</a></li>
+                <li><a href="training.html">Training</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+
+        </nav>
+
+    </div>
+	<div class="partners main-background1">
+		<div class="container content">
+			<h1 class="text-center mb-5 pt-5 heading-main">Frequently Asked Questions</h1>
+			<div class="faq-item">
+				<input type="checkbox" id="faq1">
+				<label for="faq1">How do space heaters work?</label>
+				<div class="faq-content">
+					<p>Space heaters work by using electricity or fuel to generate heat. They then distribute that heat into
+						the surrounding area, warming the space.</p>
+				</div>
+			</div>
+	
+			<div class="faq-item">
+				<input type="checkbox" id="faq2">
+				<label for="faq2">Are space heaters safe to use?</label>
+				<div class="faq-content">
+					<p>When used properly according to instructions, space heaters can be safe. Keep them away from
+						flammable materials, unplug when not in use, and never leave them unattended.</p>
+				</div>
+			</div>
+	
+			
+			<div class="faq-item">
+				<input type="checkbox" id="faq3">
+				<label for="faq3">Can space heaters save energy?</label>
+				<div class="faq-content">
+					<p>Space heaters can be energy-efficient when used to heat specific areas rather than an entire home.
+						Choose energy-efficient models and use them sparingly to save energy.</p>
+				</div>
+			</div>
+	
+			<div class="faq-item">
+				<input type="checkbox" id="faq4">
+				<label for="faq4">What are the types of space heaters available?</label>
+				<div class="faq-content">
+					<p>Common types include convection, radiant, ceramic, and infrared heaters. Each has unique heating
+						mechanisms and is suitable for different spaces.</p>
+				</div>
+			</div>
+	
+			<div class="faq-item">
+				<input type="checkbox" id="faq5">
+				<label for="faq5">How should I maintain my space heater?</label>
+				<div class="faq-content">
+					<p>Regularly clean the heater, follow maintenance instructions, and have it professionally inspected if
+						needed. Keep it away from dust and debris.</p>
+				</div>
+			</div>
+	
+			<div class="faq-item">
+				<input type="checkbox" id="faq6">
+				<label for="faq6">Can I use an extension cord with a space heater?</label>
+				<div class="faq-content">
+					<p>It's generally not recommended. Plug the heater directly into a wall outlet to prevent overheating
+						and fire hazards.</p>
+				</div>
+			</div>
+	
+			<div class="faq-item">
+				<input type="checkbox" id="faq7">
+				<label for="faq7">Are space heaters efficient for large rooms?</label>
+				<div class="faq-content">
+					<p>It depends on the heater's power and the room's insulation. For larger rooms, you might need
+						multiple heaters or a more powerful unit.</p>
+				</div>
+			</div>
+	
+			<div class="faq-item">
+				<input type="checkbox" id="faq8">
+				<label for="faq8">Can space heaters cause dry air?</label>
+				<div class="faq-content">
+					<p>Some space heaters can reduce humidity. Consider using a humidifier in conjunction with a space
+						heater to maintain comfortable humidity levels.</p>
+				</div>
+			</div>
+	
+			<div class="faq-item">
+				<input type="checkbox" id="faq9">
+				<label for="faq9">What safety features should I look for in a space heater?</label>
+				<div class="faq-content">
+					<p>Look for tip-over protection, overheating shut-off, cool-to-touch surfaces, and a sturdy base for
+						stability.</p>
+				</div>
+			</div>
+	
+			<div class="faq-item">
+				<input type="checkbox" id="faq10">
+				<label for="faq10">Are space heaters suitable for overnight use?</label>
+				<div class="faq-content">
+					<p>It's generally advised not to leave space heaters unattended or on while sleeping. Use them
+						cautiously and turn them off when sleeping.</p>
+				</div>
+			</div>
+		</div>
+	
+	</div>
+	
+    <footer class="container-fluid text-center" id="foot">
+        <div class="row">
+            <div class="offset-4 col-4">
+                <div class="mt-5 title6 text-center">
+                    &copy; Copyright 2099. All Rights Reserved.<br>
+                    Request <a href="mailto:info@your_company_name.com">information</a><br>
+                    Rakshya Niraula&nbsp;&nbsp; C0921966
+                </div>
+
+            </div>
+        </div>
+    </footer>
+   
+</body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<!--
+Student Name: Rakshya Niraula
+File Name:index.html
+Date: 20th October,2023
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <link rel="stylesheet" href="css/styles.css"> -->
+    <title>Space Heater: Home Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        padding: 0;
+        margin:0;
+    
+    }
+    .container{
+        width:100%;
+        padding-right:15px;
+        padding-left:15px;
+        margin-right:auto;
+        margin-left:auto;
+    }
+    .navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.navbar-expand {
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
+}
+
+.navbar-header {
+    display: flex;
+    align-items: center;
+}
+.navbar-header a {
+    color:#191919;
+    font-size:15px;
+    font-weight:bold;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top:0.3125rem;
+    padding-bottom:0.3125rem;
+    margin-right:1rem;
+    line-height:inherit;
+    white-space:nowrap;
+}
+.main-menu a {
+    color:#191919;
+    text-decoration:none;
+}
+a {
+    background-color:transparent;
+
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row; 
+}
+
+.navbar-nav > li {
+    margin-right: 10px; 
+    list-style: none;
+    white-space: nowrap;
+}
+
+.navbar-nav > li > a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px 15px;
+    border-radius: 4px; 
+}
+
+.navbar-nav > li > a:hover {
+    background-color: #f0f0f0; 
+}
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    background-image: url('images/heater4.jpg');
+}
+.parallax .inner #paragraph1 {
+    font: normal normal normal 15px/1.875em helvetica-w01-light,helvetica-w02-light,sans-serif;
+    color: #fff;
+    text-align: center;
+    text-wrap: none;
+    }
+.parallax .inner #taglink {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    font-family: 'PlayfairDisplay-Regular';
+}
+    .parallax .inner #paragraph {
+    font-size: 72px;
+    color: #fff;
+    text-align: center;
+    font-family: "Oswald-ExtraLight";
+    line-height: 1.25em;
+    font-weight: bolder;
+}
+    /* Styles for a card-like element */
+.card {
+    /* Your card styles */
+    border: 1px solid #ddd; /* Example border style */
+    border-radius: 8px; /* Example border-radius */
+    padding: 15px; /* Example padding */
+}
+
+/* Styles for the card body */
+.card-body {
+    /* Your card-body styles */
+    padding: 10px; /* Example padding */
+}
+
+/* Specific classes */
+.bg-transparent {
+    background-color: transparent; /* Make background transparent */
+}
+
+.border-0 {
+    border: none; /* Remove border */
+}
+.text-center {
+    text-align: center!important;
+}
+.title6 {
+    font: normal normal normal 15px/1.875em helvetica-w01-light,helvetica-w02-light,sans-serif;
+}
+/* Basic styles for the FAQ section */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+img, video {
+    max-width: 100%;
+    display: block;
+}
+video {
+    margin: 0 auto 4%;
+	object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+media (min-width: 576px) {
+    .container{
+        max-width: 540px;
+
+    }
+    .flex-sm-nowrap {
+        flex-wrap: nowrap !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .flex-md-row {
+        flex-direction: row !important;
+    }
+}
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1140px;
+    }
+}
+
+</style>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/?Length=4">Teamwork-Hardwork</a>
+            </div>
+            <ul class="nav navbar-nav main-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="specials.html">Specials</a></li>
+                <li><a href="training.html">Training</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+
+        </nav>
+
+    </div>
+	
+		<main>
+            <video controls poster="images/heater2.jpg">
+                <source src="media/spaceheater.mp4" type="video/mp4">
+                <source src="media/space_heater.webm" type="video/webm">
+                <p>Your browser does not support the video element.</p>
+            </video>
+        </main>
+	
+		<section id="medi" class="tablet-desktop">
+
+			<h1>The Rising Trend of Space Heaters: Are They Safe and Efficient?</h1>
+			<p>As temperatures drop, many turn to space heaters for added warmth. These portable devices offer convenience and localized heat, but concerns about safety and efficiency persist.</p>
+			<dl>
+				<dt>Safety Concerns</dt>
+				<dd>Reports of fire incidents related to space heaters raise questions about their safety. Experts emphasize the importance of proper usage, including maintaining distance from flammable materials, never leaving them unattended, and plugging directly into outlets</dd>
+
+				<dt>Efficiency and Energy Consumption:</dt>
+				<dd>While space heaters offer targeted heating, questions arise regarding their energy efficiency. Energy-efficient models exist, but excessive use or incorrect placement may lead to increased energy consumption.</span></dd>
+
+				<dt>Expert Advice:</dt>
+				<dd>Experts advise cautious use, stressing the need for regular maintenance, understanding safety features, and purchasing certified models. Users are encouraged to follow manufacturer guidelines and consider alternative heating methods for larger spaces.</dd>
+			</dl>
+
+
+			<p>For more information about space heaters, visit the <a href="https://www.consumerreports.org/appliances/space-heaters/buying-guide/"
+			target="_blank" class="external-link">Buying guide of Space heaters</a>.</p>
+
+		</section>
+	
+    <footer class="container-fluid text-center" id="foot">
+        <div class="row">
+            <div class="offset-4 col-4">
+                <div class="mt-5 title6 text-center">
+                    &copy; Copyright 2099. All Rights Reserved.<br>
+                    Request <a href="mailto:info@your_company_name.com">information</a><br>
+                    Rakshya Niraula&nbsp;&nbsp; C0921966
+                </div>
+
+            </div>
+        </div>
+    </footer>
+   
+</body>
+</html>
