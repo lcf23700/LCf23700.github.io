@@ -78,7 +78,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     height: 550px;
-    background-image: url('images/heater4.jpg');
+    background-image: url('images/ourteam.png');
 }
 .parallax .inner #paragraph1 {
     font: normal normal normal 15px/1.875em helvetica-w01-light,helvetica-w02-light,sans-serif;
@@ -127,6 +127,36 @@ a {
 }
 .title6 {
     font: normal normal normal 15px/1.875em helvetica-w01-light,helvetica-w02-light,sans-serif;
+}
+/* Table styling */
+figure {
+    display: flex;
+    align-items: center;
+}
+
+figure img {
+    max-width: 800px; /* Adjust image size as needed */
+    margin-right: 20%; /* Space between image and text */
+}
+
+figcaption {
+    flex: 0 0 auto; /* Don't allow figure caption to grow */
+    margin: 0; /* Reset margin */
+    font-style: italic;
+    color: #777;
+}
+
+figure p {
+    flex: 1; /* Allow description to take remaining space */
+    margin: 0; /* Reset margin */
+}
+.aside-item {
+    width: 48%; /* Adjust width as needed */
+    /* Other styling properties */
+}
+.arow {
+    display: flex;
+    justify-content: space-between;
 }
 @media (min-width: 576px) {
     .container{

@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <!--
 Student Name: Rakshya Niraula
-File Name:index.html
+File Name:training.html
 Date: 20th October,2023
 -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- <link rel="stylesheet" href="css/styles.css"> -->
+	<!-- <link rel="stylesheet" href="css/team.css"> -->
     <title>Space Heater: Home Page</title>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
 </head>
 <style>
+    
     body{
         padding: 0;
         margin:0;
@@ -92,7 +93,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     height: 550px;
-    background-image: url('images/heater4.jpg');
+    background-image: url('images/ourteam.png');
 }
 .parallax .inner #paragraph1 {
     font: normal normal normal 15px/1.875em helvetica-w01-light,helvetica-w02-light,sans-serif;
@@ -142,6 +143,36 @@ a {
 .title6 {
     font: normal normal normal 15px/1.875em helvetica-w01-light,helvetica-w02-light,sans-serif;
 }
+/* Table styling */
+figure {
+    display: flex;
+    align-items: center;
+}
+
+figure img {
+    max-width: 800px; /* Adjust image size as needed */
+    margin-right: 20%; /* Space between image and text */
+}
+
+figcaption {
+    flex: 0 0 auto; /* Don't allow figure caption to grow */
+    margin: 0; /* Reset margin */
+    font-style: italic;
+    color: #777;
+}
+
+figure p {
+    flex: 1; /* Allow description to take remaining space */
+    margin: 0; /* Reset margin */
+}
+.aside-item {
+    width: 48%; /* Adjust width as needed */
+    /* Other styling properties */
+}
+.arow {
+    display: flex;
+    justify-content: space-between;
+}
 @media (min-width: 576px) {
     .container{
         max-width: 540px;
@@ -163,8 +194,8 @@ a {
     }
 }
 
-</style>
 
+</style>
 <body>
     <div class="container">
         <nav class="navbar navbar-expand">
@@ -186,33 +217,64 @@ a {
         </nav>
 
     </div>
-    <main>
-		<section class="who-we-are">
-		  <h2>Who We Are</h2>
-		  <article>
-			<h3>Executives/Leadership Team</h3>
-			<figure>
-			  <img src="images/executives.jpg" alt="Executives">
-			  <figcaption>Executives/Leadership Team</figcaption>
-			</figure>
-			<p>Description of executives and leadership team...</p>
-		  </article>
-	
-		  <!-- Other team sections (Marketing, Sales, etc.) -->
-		</section>
-	
-		<section class="our-story">
-		  <h2>Our Story</h2>
-		  <article>
-			<p>History and story of the company...</p>
-		  </article>
-		</section>
-	
-		<aside class="additional-info">
-		  <!-- Additional information or content -->
-		</aside>
-	  </main>
-	
+    <div class="container">
+        <div class="parallax">
+            <div class="inner">
+                <div class="card card-body bg-transparent border-0">
+                    <p id="paragraph">Our Amazing Team</p>
+            </div>
+               
+    
+            </div>
+    </div>
+	<main>
+
+		<div class="desktop">
+			<p id="paragraph">Innovators Dreamers</p>
+            <section>
+                <h1>Who We Are</h1>
+                <p>Welcome to our team! Here's a bit about the individuals who make up our company:</p>
+                <figure class="team-member">
+                    <img src="images/ceo.png" alt="Marketing Manager">
+                    <figcaption>Marketing Manager</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/coo.png" alt="Quality Control Specialist">
+                    <figcaption>Quality Control Specialist</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/marketing.png" alt="Sales Representative">
+                    <figcaption>Sales Representative</figcaption>
+                </figure>
+            </section>
+    
+            <article>
+                <h2>Our Story</h2>
+                <p>The Space Heater Company began in a garage with a vision: 
+                    redefine warmth. Led by founder Mark and a team of passionate engineers, 
+                    they sought to create innovative, energy-efficient heaters. 
+                    Their breakthrough, the Quantum HeatCore, revolutionized the industry. 
+                    As they grew, their commitment to quality, innovation, and sustainability remained unwavering. 
+                    Today, from humble beginnings, they stand as a global leader,
+                     warming homes and hearts with cutting-edge technology
+                      and a dedication to comfort.</p>
+            </article>
+    
+            <div class="arow">
+                <aside class="aside-item">
+                    Space heaters date back centuries. 
+                Ancient Romans used radiant heating systems beneath floors, 
+                while in the 1800s, the Franklin stove was a precursor to modern space heaters.
+                </aside>
+                
+            </div>
+            
+		</div>
+		
+	</main>
+    <div>
+
+    </div>
     <footer class="container-fluid text-center" id="foot">
         <div class="row">
             <div class="offset-4 col-4">

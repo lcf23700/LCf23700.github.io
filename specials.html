@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <!--
 Student Name: Rakshya Niraula
-File Name:index.html
+File Name:training.html
 Date: 20th October,2023
 -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- <link rel="stylesheet" href="css/styles.css"> -->
+	<!-- <link rel="stylesheet" href="css/specials.css"> -->
     <title>Space Heater: Home Page</title>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
 </head>
 <style>
+    
     body{
         padding: 0;
         margin:0;
@@ -92,7 +93,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     height: 550px;
-    background-image: url('images/heater4.jpg');
+    background-image: url('images/trial.jpg');
 }
 .parallax .inner #paragraph1 {
     font: normal normal normal 15px/1.875em helvetica-w01-light,helvetica-w02-light,sans-serif;
@@ -142,6 +143,69 @@ a {
 .title6 {
     font: normal normal normal 15px/1.875em helvetica-w01-light,helvetica-w02-light,sans-serif;
 }
+/* Table styling */
+.training-table {
+    border-collapse: collapse;
+    border: 2px solid #ddd; /* Border style */
+    width: 100%;
+}
+
+/* Caption and th element styling */
+.training-table caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 5px;
+}
+
+.training-table th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 1px solid #ddd; /* Border style for th */
+}
+
+
+.product {
+    display: flex;
+    align-items: center; 
+}
+
+.product img {
+    width: 26%; 
+    margin-right: 36%; 
+}
+
+.product p {
+    flex: 1; /* Allow text to take remaining space */
+}
+
+.sales-items {
+    display: flex;
+    align-items: center; 
+}
+
+.sales-items img {
+    width: 26%; 
+    margin-right: 36%; 
+}
+
+.sales-items p {
+    flex: 1; /* Allow text to take remaining space */
+}
+
+.reason {
+    display: flex;
+    align-items: center; 
+}
+
+.reason img {
+    width: 26%; 
+    margin-right: 36%; 
+}
+
+.reason p {
+    flex: 1; /* Allow text to take remaining space */
+}
 @media (min-width: 576px) {
     .container{
         max-width: 540px;
@@ -186,23 +250,63 @@ a {
         </nav>
 
     </div>
-    <main>
-		<!-- Previous sections remain -->
-	
-		<section class="product-of-week">
-		  <h2>Product of the Week</h2>
-		  <article>
-			<figure>
-			  <img src="images/product_of_week.jpg" alt="Product of the Week">
-			  <figcaption>Product of the Week</figcaption>
-			</figure>
-			<p>Description of the product of the week...</p>
-		  </article>
-		</section>
-	
-		<!-- Additional sections or content -->
-	  </main>
-	
+    <div class="container">
+        <div class="parallax">
+            <div class="inner">
+                <div class="card card-body bg-transparent border-0">
+                    <p id="paragraph">MRN Space Heater</p>
+            </div>
+               
+    
+            </div>
+    </div>
+	<main>
+		<div class="desktop">
+			<div class="row">
+                <section class="product-of-the-week">
+                    <h2>Product of the Week</h2>
+                    <div class="product">
+                        <img src="images/spaceheater1.jpg" alt="Product of the Week">
+                        <p>$99.99<br>Experience ultimate warmth with our Space Heater Model XYZ. This energy-efficient heater combines cutting-edge technology with sleek design. With adjustable heat settings and advanced safety features, it's perfect for any room. Say goodbye to chilly days and hello to cozy comfort!</p>
+                    </div>
+                    </div>
+                </section>
+            
+                <section class="weekly-sales">
+                    <h2>Weekly Sales</h2>
+                        <div class="sale-item">
+                            <img src="images/spaceheater5.jpg" alt="Weekly Sale 1">
+                            <p class="price">$129.99 <br>Introducing our Space Heater Model ABC - the perfect blend of efficiency and elegance. Designed to complement any interior, this heater offers rapid heating and quiet operation. Its user-friendly controls and safety features make it an ideal choice for your home or office.</p>
+                        </div>
+                    </div>
+                </section>
+            
+                <section class="customer-guarantee">
+                        <div class="sale-item">
+                            <img src="images/spaceheater3.jpg" alt="Weekly Sale 1">
+                            <p class="price">$149.99<br>Discover comfort and style with our Space Heater Model DEF. This heater boasts a sleek, modern design and powerful heating capabilities. With its oscillation feature and remote control, you can easily distribute warmth across the room. Enjoy cozy winters with our innovative technology.</p>
+                        </div>
+                        
+                </section>
+            
+                
+
+                <section class="reasons-to-buy">
+                    <h2>Reasons to Buy from MRN Space Heater Co.</h2>
+                            <div class="reason">
+                                <img src="images/spaceheater4.jpg" alt="Reason 1">
+                                <p>Efficient Heating: Space heaters provide targeted heating, <br>
+                                    allowing you to warm specific areas quickly without needing to heat the entire house.<br>
+                                    Energy Savings: They offer energy-efficient solutions, <br>
+                                    helping to reduce overall heating costs by focusing on the rooms you use most.</p>                           
+                                 </div>
+                        
+                </section>
+            </div>
+		</div>
+		
+		
+	</main>
     <footer class="container-fluid text-center" id="foot">
         <div class="row">
             <div class="offset-4 col-4">

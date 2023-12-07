@@ -78,7 +78,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     height: 550px;
-    background-image: url('images/heater4.jpg');
+    background-image: url('images/trial.jpg');
 }
 .parallax .inner #paragraph1 {
     font: normal normal normal 15px/1.875em helvetica-w01-light,helvetica-w02-light,sans-serif;
@@ -128,6 +128,69 @@ a {
 .title6 {
     font: normal normal normal 15px/1.875em helvetica-w01-light,helvetica-w02-light,sans-serif;
 }
+/* Table styling */
+.training-table {
+    border-collapse: collapse;
+    border: 2px solid #ddd; /* Border style */
+    width: 100%;
+}
+
+/* Caption and th element styling */
+.training-table caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 5px;
+}
+
+.training-table th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 1px solid #ddd; /* Border style for th */
+}
+
+
+.product {
+    display: flex;
+    align-items: center; 
+}
+
+.product img {
+    width: 26%; 
+    margin-right: 36%; 
+}
+
+.product p {
+    flex: 1; /* Allow text to take remaining space */
+}
+
+.sales-items {
+    display: flex;
+    align-items: center; 
+}
+
+.sales-items img {
+    width: 26%; 
+    margin-right: 36%; 
+}
+
+.sales-items p {
+    flex: 1; /* Allow text to take remaining space */
+}
+
+.reason {
+    display: flex;
+    align-items: center; 
+}
+
+.reason img {
+    width: 26%; 
+    margin-right: 36%; 
+}
+
+.reason p {
+    flex: 1; /* Allow text to take remaining space */
+}
 @media (min-width: 576px) {
     .container{
         max-width: 540px;
@@ -148,4 +211,3 @@ a {
         max-width: 1140px;
     }
 }
-

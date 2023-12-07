@@ -128,7 +128,23 @@ a {
 .title6 {
     font: normal normal normal 15px/1.875em helvetica-w01-light,helvetica-w02-light,sans-serif;
 }
-@media (min-width: 576px) {
+/* Basic styles for the FAQ section */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+img, video {
+    max-width: 100%;
+    display: block;
+}
+video {
+    margin: 0 auto 4%;
+	object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+media (min-width: 576px) {
     .container{
         max-width: 540px;
 

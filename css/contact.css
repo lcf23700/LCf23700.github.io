@@ -1,67 +1,277 @@
-/* Basic styles for the contact form */
 
-/* Resetting default margins and paddings */
-body, h1, h2, h3, h4, h5, h6, p, ul, ol {
-  margin: 0;
-  padding: 0;
+    body{
+        padding: 0;
+        margin:0;
+    
+    }
+    .container{
+        width:100%;
+        padding-right:15px;
+        padding-left:15px;
+        margin-right:auto;
+        margin-left:auto;
+    }
+    .navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-/* Centering the main content */
-.contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+.navbar-expand {
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
 }
 
-/* Form styles */
+.navbar-header {
+    display: flex;
+    align-items: center;
+}
+.navbar-header a {
+    color:#191919;
+    font-size:15px;
+    font-weight:bold;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top:0.3125rem;
+    padding-bottom:0.3125rem;
+    margin-right:1rem;
+    line-height:inherit;
+    white-space:nowrap;
+}
+.main-menu a {
+    color:#191919;
+    text-decoration:none;
+}
+a {
+    background-color:transparent;
+
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row; 
+}
+
+.navbar-nav > li {
+    margin-right: 10px; 
+    list-style: none;
+    white-space: nowrap;
+}
+
+.navbar-nav > li > a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px 15px;
+    border-radius: 4px; 
+}
+
+.navbar-nav > li > a:hover {
+    background-color: #f0f0f0; 
+}
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    background-image: url('images/heater4.jpg');
+}
+.parallax .inner #paragraph1 {
+    font: normal normal normal 15px/1.875em helvetica-w01-light,helvetica-w02-light,sans-serif;
+    color: #fff;
+    text-align: center;
+    text-wrap: none;
+    }
+.parallax .inner #taglink {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    font-family: 'PlayfairDisplay-Regular';
+}
+    .parallax .inner #paragraph {
+    font-size: 72px;
+    color: #fff;
+    text-align: center;
+    font-family: "Oswald-ExtraLight";
+    line-height: 1.25em;
+    font-weight: bolder;
+}
+    /* Styles for a card-like element */
+.card {
+    /* Your card styles */
+    border: 1px solid #ddd; /* Example border style */
+    border-radius: 8px; /* Example border-radius */
+    padding: 15px; /* Example padding */
+}
+
+/* Styles for the card body */
+.card-body {
+    /* Your card-body styles */
+    padding: 10px; /* Example padding */
+}
+
+/* Specific classes */
+.bg-transparent {
+    background-color: transparent; /* Make background transparent */
+}
+
+.border-0 {
+    border: none; /* Remove border */
+}
+.text-center {
+    text-align: center!important;
+}
+.title6 {
+    font: normal normal normal 15px/1.875em helvetica-w01-light,helvetica-w02-light,sans-serif;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-md-6 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-md-5 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 41.666667%; 
+    max-width: 41.666667%;
+}
+
+.offset-md-1 {
+    margin-left: 8.333333%; 
+}
+
+.content-margin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.col-12 {
+    width: 100%;
+}
+
+.font_6 {
+    font-size: 20px; 
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mb-4 {
+    margin-bottom: 1rem; 
+}
+
+.mr-4 {
+    margin-right: 1rem; 
+}
+
+.contact, .main-background1 {
+    background-color: #f7f7f7;
+}
+
 form {
-  max-width: 600px;
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: #f9f9f9;
+            width: 500px;;
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+            border-radius: 8px;
+			margin-left:120px;
+			margin-right: 85px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        ol {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+        }
+
+        fieldset {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        legend {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        select,
+        textarea {
+            width: calc(100% - 22px);
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        button[type="reset"] {
+            background-color: #dc3545;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+@media (min-width: 576px) {
+    .container{
+        max-width: 540px;
+
+    }
+    .flex-sm-nowrap {
+        flex-wrap: nowrap !important;
+    }
 }
 
-h1 {
-  text-align: center;
-  margin-bottom: 20px;
+@media (min-width: 768px) {
+    .flex-md-row {
+        flex-direction: row !important;
+    }
+}
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1140px;
+    }
 }
 
-/* Style for input fields */
-input[type="text"],
-input[type="email"],
-textarea {
-  width: calc(100% - 20px);
-  padding: 8px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-/* Style for submit button */
-button[type="submit"] {
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-button[type="submit"]:hover {
-  background-color: #0056b3;
-}
-
-/* Other specific styles can be added as needed */
-
-/* Form group styles */
-.form-group {
-  margin-bottom: 15px;
-}
-
-/* Text Danger styles */
-.text-danger {
-  color: red;
-}

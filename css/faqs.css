@@ -128,6 +128,47 @@ a {
 .title6 {
     font: normal normal normal 15px/1.875em helvetica-w01-light,helvetica-w02-light,sans-serif;
 }
+/* Basic styles for the FAQ section */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+}
+
+.faq-content {
+    display: none;
+    padding-left: 20px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]+label {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="checkbox"]:checked~.faq-content {
+    display: block;
+}
+.content {
+  text-align: center; /* If you want to center text horizontally */
+  /* Additional styling for the content */
+}
 @media (min-width: 576px) {
     .container{
         max-width: 540px;

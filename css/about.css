@@ -78,23 +78,23 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     height: 550px;
-    background-image: url('images/heater4.jpg');
+    background-image: url('images/aboutSpaceHeater.jpg');
 }
 .parallax .inner #paragraph1 {
     font: normal normal normal 15px/1.875em helvetica-w01-light,helvetica-w02-light,sans-serif;
-    color: #fff;
+    color:black;
     text-align: center;
     text-wrap: none;
     }
 .parallax .inner #taglink {
     font-size: 20px;
-    color: #fff;
+    color: black;
     text-align: center;
     font-family: 'PlayfairDisplay-Regular';
 }
     .parallax .inner #paragraph {
     font-size: 72px;
-    color: #fff;
+    color: black;
     text-align: center;
     font-family: "Oswald-ExtraLight";
     line-height: 1.25em;
@@ -148,4 +148,3 @@ a {
         max-width: 1140px;
     }
 }
-
